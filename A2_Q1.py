@@ -6,7 +6,7 @@ Created on Tue Feb  8 21:17:06 2022
 """
 
 import tensorflow as tf
-from tensorflow.keras.layers import BatchNormalization,Conv2D,Conv2DTranspose,LeakyReLU,Activation,Flatten,Dense,Reshape,Input
+from tensorflow.keras.layers import Activation,Flatten,Dense,Reshape,Input
 from tensorflow.keras.models import Model, Sequential
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import CosineSimilarity, MeanSquaredError
